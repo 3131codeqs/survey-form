@@ -1,0 +1,59 @@
+body {
+    background-image: url(../images/513-5131515_website-background-design-illustration-hd-png-download.png);
+    background-repeat: no-repeat;
+background-size: 1400px;}
+#main {
+    width: 700px;
+    height: 1000px;
+    background-color:azure;
+margin-left: 450px;
+margin-top: 150px;
+}
+.heading {
+    padding-top: 50px;
+    padding-left: 150px;
+}
+.question {
+    padding-left: 40px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.question2 {
+    padding-left: 12px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.question3 {
+    padding-left: 12px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.question4 {
+    padding-left: 12px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.question5 {
+    padding-left: 12px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.answer {
+    padding-left: 30PX;
+    padding-top: -20px;
+}
+.other {
+    width: 300px;
+}
+#frequency {
+    width: fit-content;
+
+}
+#submit {
+    padding: 10px 40px;
+    background-color: rgb(50, 50, 146);
+    color: white;
+    text-decoration: none;
+    margin: 10px 500px;
+    cursor: pointer;
+}

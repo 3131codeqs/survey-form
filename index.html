@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Survey form</title>
+    </head>
+    <body>
+        <div id="main">
+            <h1 class="heading">Product Satisfaction Survey</h1>
+            <div id="content">
+                <p class="question">1)How long have you used this product?</p>
+                    <form class="answer">
+                        <label">
+                <input type="radio" value="less" name="first">Less than one month<br>
+                <input type="radio" value="six" name="first">One to six month<br>
+                <input type="radio" value="one" name="first">Six months to one year<br>
+                <input type="radio" value="two" name="first">One to two years<br>
+                <input type="radio" value="more" name="first">More than two years<br>
+                        </label>
+                    </form>
+                  <p class="question2">2)How did you learn about this product?</p>
+                    <form class="answer2">
+                        <label>
+                <input type="radio" value="tv" name="second">Television<br>
+                <input type="radio" value="radio" name="second">Radio<br>
+                <input type="radio" value="youtube" name="second">Youtube<br>
+                <input type="radio" value="tiktok" name="second">TikTok<br>
+                <input type="radio" value="internet" name="second">Internet/Website<br>
+                <input type="radio" value="friend" name="second">Friends/Relatives<br>  
+         Others:<input type="text" class="other" name="second"><br>
+                    </label>
+                    </form>
+                    <p class="question3">3)Where do you usually purchase this product?</p>
+                    <form class="answer3">
+                        <label>
+                <input type="radio" value="Grocery store" name="third">Grocery store<br>
+                <input type="radio" value="Discount store" name="third">Discount store<br>
+                <input type="radio" value="Department store" name="third">Department store<br>
+                <input type="radio" value="Drug store" name="third">Drug store<br>
+                <input type="radio" value="Mall" name="third">Mall<br>
+                <input type="radio" value="Internet/Online" name="third">Internet/Online<br>  
+         Others:<input type="text" class="other" name="third"><br>
+                        </label>
+                    </form>
+                    <p class="question4">4)How often do you use this product?</p>
+                    <form class="answer4">
+                        <select id="frequency" name="frequency">
+                            <option value="constantly">Every day (constantly)</option>
+                            <option value="sometimes">Once in 2-3days (sometimes)</option>
+                            <option value="rarely">Once a week (rare)</option>
+                            <option value="never">Never</option>
+                        </select>
+                    </form>
+                    <p class="question5">5)Overall, how satisfied are you with this product?</p>
+                    <form class="answer5">
+                        <label>
+                <input type="radio" value="very dissatisfied" name="third">Very Dissatisfied<br>
+                <input type="radio" value="dissatisfied" name="fourth">Dissatisfied<br>
+                <input type="radio" value="satisfied" name="fourth">Satisfied<br>
+                <input type="radio" value="very satisfied" name="fourth">Very Satisfied<br>  
+                        </label>
+                        <input type="submit" value="Submit" id="submit">
+                    </form>
+            </div>
+    </div>
+</body>
+</html>
